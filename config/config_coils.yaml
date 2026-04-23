@@ -1,0 +1,51 @@
+#config_version=6
+
+coils:
+  c_flipper_left:
+    number: A5-B0-0
+    default_pulse_ms: 20
+    default_hold_power: 0.6
+  c_flipper_right:
+    number: A5-B0-1
+    default_pulse_ms: 20
+    default_hold_power: 0.6
+  c_slings_left:
+    number: A5-B0-2
+    default_pulse_ms: 20
+    default_pulse_power: 0.5
+  c_slings_right:
+    number: A5-B0-3
+    default_pulse_ms: 20
+    default_pulse_power: 0.5
+  c_pop_a:
+    number: A5-B0-4
+    default_pulse_ms: 20
+    default_pulse_power: 0.8
+  c_pop_b:
+    number: A5-B0-5
+    default_pulse_ms: 20
+    default_pulse_power: 0.8
+  c_pop_c:
+    number: A5-B0-6
+    default_pulse_ms: 20
+    default_pulse_power: 0.8
+  c_trough_eject:
+    number: A5-B0-7
+    default_pulse_ms: 30
+    default_pulse_power: 0.95
+  c_plunger:
+    number: A5-B1-0
+    default_pulse_ms: 40
+    default_pulse_power: 0.95
+  c_flipper_top_right:
+    number: A5-B1-1
+    default_pulse_ms: 20
+    default_hold_power: 0.45
+  c_reset_drop_target:
+    number: A5-B1-2
+    default_pulse_ms: 20
+    default_pulse_power: 0.95
+  c_captive_l:
+    number: A5-B1-3
+    default_pulse_ms: 20
+    default_pulse_power: 0.85

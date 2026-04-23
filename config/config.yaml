@@ -6,7 +6,37 @@
 # drivers, ball devices, hardware platforms, and more. You can
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
+config:
+  - config_switches.yaml
+  - config_ball_devices.yaml
+  - config_coils.yaml
 
 modes:
   - attract
   - base
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_through
+
+hardware:
+  platform: p3_roc
+  driverboards: pdb
+  lights: fadecandy
+  
+p_roc:
+  driverboards: pdb
+  debug: true
+  trace_bus: true
+  use_watchdog: true
+  watchdog_time: 1s
+  pd_led_boards:
+    3:
+      use_ws281x_0: true
+      use_ws281x_1: true
+      use_ws281x_2: true
+    4:
+      use_ws281x_0: true
+      use_ws281x_1: true
+      use_ws281x_2: true

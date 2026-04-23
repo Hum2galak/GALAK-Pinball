@@ -1,0 +1,102 @@
+#config_version=6
+
+switches:
+  s_left_flipper:
+    number: A0-B0-0
+    tags: left_flipper
+  s_right_flipper:
+    number: A0-B0-1
+    tags: right_flipper
+  s_sling_left:
+    number: A0-B0-2
+    debounce: normal
+  s_sling_right:
+    number: A0-B0-3
+    debounce: normal
+  s_pop_a:
+    number: A0-B0-4
+    debounce: normal
+  s_pop_b:
+    number: A0-B0-5
+    debounce: normal
+  s_pop_c:
+    number: A0-B0-6
+    debounce: normal
+  s_start:
+    number: A0-B0-7
+    tags: start
+  s_trough1:
+    number: A0-B1-0
+    type: 'NC'
+  s_trough2:
+    number: A0-B1-1
+  s_trough3:
+    number: A0-B1-2
+  s_trough4:
+    number: A0-B1-3
+  s_trough_jam:
+    number: A2-B0-5
+    type: 'NC'
+  s_plunger:
+    number: A0-B1-4
+  s_right_inlane:
+    number: A0-B1-5
+    tags: playfiled_active
+  s_target_left1:
+    number: A0-B1-6
+    tags: targets
+  s_target_left2:
+    number: A0-B1-7
+    tags: targets
+  s_target_left3:
+    number: A1-B0-0
+    tags: targets
+  s_target_right1:
+    number: A1-B0-1
+    tags: targets
+  s_target_right2:
+    number: A1-B0-2
+    tags: targets
+  s_target_right3:
+    number: A1-B0-3
+    tags: targets
+  s_loop_left:
+    number: A1-B0-4
+  s_target_midleft:
+    number: A1-B0-6
+    tags: targets
+  s_target_midright:
+    number: A1-B0-7
+    tags: targets
+  s_linetop_1:
+    number: A1-B1-0
+  s_linetop_2:
+    number: A1-B1-1
+  s_linetop_3:
+    number: A1-B1-2
+  s_linetop_4:
+    number: A1-B1-3
+  s_linebot_1:
+    number: A1-B1-4
+  s_linebot_2:
+    number: A1-B1-5
+  s_linebot_3:
+    number: A1-B1-6
+  s_linebot_4:
+    number: A1-B1-7
+  s_left_ramp:
+    number: A2-B0-0
+  s_right_ramp:
+    number: A2-B0-1
+  s_target_lock:
+    number: A2-B0-2
+    tags: targets
+  s_drop_target:
+    number: A2-B0-3
+    tags: targets
+  s_loop_right:
+    number: A2-B0-4
+  s_twister:
+    number: A2-B0-7
+  s_ironman:
+    number: A2-B0-6
