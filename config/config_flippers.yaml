@@ -1,0 +1,18 @@
+#config_version=6
+
+flippers:
+  lower_left:
+    main_coil: c_flipper_left
+    activation_switch: s_left_flipper
+    label: Left Main Flipper
+#    enable_events: machine_reset_phase_3
+  lower_right:
+    main_coil: c_flipper_right
+    activation_switch: s_right_flipper
+    label: Right Main Flipper
+#    enable_events: machine_reset_phase_3
+  upper_right:
+    main_coil: c_flipper_top_right
+    activation_switch: s_right_flipper
+    label: Right Top Flipper
+#    enable_events: machine_reset_phase_3

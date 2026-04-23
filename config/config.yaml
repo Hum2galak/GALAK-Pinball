@@ -10,7 +10,10 @@ config:
   - config_switches.yaml
   - config_ball_devices.yaml
   - config_coils.yaml
-
+  - config_flippers.yaml
+  - config_autofire_coils.yaml
+ # - lights.yaml
+ # - sound.yaml
 modes:
   - attract
   - base
